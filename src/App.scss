@@ -1,0 +1,246 @@
+@import './Styles/Style';
+
+
+h1, h2, h3, h4{
+  font-family: $header-font;
+}
+
+
+// ============Styling of Menubar===========//
+.logo{
+  color: $text-white;
+  font-weight: $bold-font;
+}
+.logo:hover{
+  text-decoration: $underline-none;
+}
+.colored-text{
+  color: $theme-color;
+  // font-weight: $extra-bold;
+}
+.menu-link{
+  padding-right: 30px;
+  color: $text-white;
+  font-weight: $bold-font;
+}
+.menu-link:hover{
+  text-decoration: $underline-none;
+  color: $theme-color;
+}
+.navbar-hamburger {
+  background: #fff !important;
+}
+
+
+// ==========Styling of Header==========//
+
+.header-bg{
+  background-image: url(./images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
+  height: 700px;
+}
+.header-text{
+  text-transform: uppercase;
+  font-family: $header-font;
+  font-size: 60px;
+}
+.header-para{
+  font-size: 14px;
+}
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video{
+  border: 10px solid rgb(5, 6, 19);
+  border-radius: 2px;
+  width: 100%;
+}
+.btn-brand{
+  background-color: $theme-color;
+  font-family: $header-font;
+  color: black;
+  padding: 10px 50px;
+  border: none;
+  outline: none;
+  border-radius: 2px;
+  font-weight: $bold-font;
+}
+.btn-brand:hover{
+  background: none;
+  border: 2px solid $theme-color;
+  color: $text-white;
+}
+
+// ========== Styling of Services Area ========== //
+
+.service-body{
+  margin-top: 150px;
+  
+}
+.service-body h1{
+  font-family: $header-font;
+}
+.progression{
+  background-image: url(./images/banner/service-1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-position: top center;
+}
+.workout{
+  background-image: url(./images/banner/service-2.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-position: top center;
+}
+.nutrition{
+  background-image: url(./images/banner/service-3.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-position: top center;
+}
+
+
+// ==========Style of about us section ==========// 
+
+.about-heading{
+  display: inline-block;
+  // padding: ;
+  font-family: $header-font;
+  color: gray;
+  border-right: 1px solid lightgray;
+}
+.small-text{
+  line-height: 2;
+}
+
+// ========= Style of choose us section ========== // 
+
+.choose-us-body{
+  margin: 150px 0;
+}
+.choose-card>h4{
+  font-family: $header-font;
+  margin: 25px 0;
+}
+.choose-card>p{
+  color: rgb(83, 81, 81);
+}
+
+.choose-card{
+  background-color: #fff;
+  padding: 20px 0;
+   transition: all 0.5s ease;
+}
+.choose-card:hover{
+  cursor: pointer;
+  border: 2px solid $theme-color;
+  box-shadow: 5px 5px 10px rgb(197, 196, 196);
+  transform: scale(1.1);
+}
+
+// ========== Style of Footer Section =========== // 
+
+footer{
+  background-color: #171426;
+  padding: 70px 0 30px 0;
+}
+.footer-body h6{
+  margin-bottom: 30px;
+}
+.social-icon{
+  margin-left: -40px;
+}
+.social-icon li{
+  display: inline-block;
+  padding-right: 10px;
+  cursor: pointer;
+}
+.social-icon li>img{
+  width: 80%;
+}
+.copyright{
+  margin-top: 70px;
+}
+.copyright>p{
+  letter-spacing: 5px;
+  color: rgb(221, 216, 216);
+}
+
+
+// PAGE STYLES//
+// ============= Styles of pricing page =========== //
+
+.page-header{
+  font-size: 80px;
+  margin-top: 100px;
+  font-weight: 200;
+  border-right: 1px solid $text-white;
+  padding: 20px 60px 20px 0;
+}
+.pricing-body{
+  margin-top: 100px;
+}
+.pricing-body>p{
+  letter-spacing: 1px;
+  margin: 20px 0 60px;
+}
+.advance-plan{
+  background-image: url(./images/pricing/pricing-1.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-position: top center;
+}
+.basic-plan{
+  background-image: url(./images/pricing/pricing-2.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-position: top center;
+}
+.beginner-plan{
+  background-image: url(./images/pricing/pricing-3.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 600px;
+  background-size: contain;
+  background-position: top center;
+}
+.price{
+  font-size: 70px;
+}
+.price-card-feature ul li{
+  list-style-type: none;
+  margin: 15px 0;
+  letter-spacing: 1px;
+}
+
+// ========== About us page=========// 
+.about-page{
+  margin: $page-margin;
+}
+
+// ========== Contact us page=========// 
+.contact-page{
+  margin: $page-margin;
+  background-color: rgba(23, 20, 38, 0.8);
+  padding: 40px 0 30px 0;
+  border-radius: 2px;
+}
+.contact-form{
+  padding: 0 30px;
+}
