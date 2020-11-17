@@ -1,7 +1,6 @@
 import React from 'react';
 import Carousel from 'react-elastic-carousel';
 import { Link } from 'react-router-dom';
-import '../../../App.css';
 import img1 from '../../../images/gym-img/img1.jpg';
 import img2 from '../../../images/gym-img/img2.jpg';
 import img3 from '../../../images/gym-img/img3.jpg';
@@ -29,37 +28,37 @@ const CarouselSlider = () => {
                <div className="cart">
                    <div>
                         <img src={img1} alt=""/>
-                        <Link to="/classes"> <span className="sliderText">PHYSIO TRAINING</span></Link>
+                        <Link to="/service"> <span className="sliderText">PHYSIO TRAINING</span></Link>
                    </div>
                </div>
                <div className="cart">
                    <div>
                         <img src={img4} alt=""/>
-                        <Link to="/classes"><span className="sliderText">SELF DEFENSE</span></Link>
+                        <Link to="/service"><span className="sliderText">SELF DEFENSE</span></Link>
                    </div>
                </div>
                <div className="cart">
                    <div>
                         <img src={img3} alt=""/>
-                        <Link to="/classes"><span className="sliderText">ADVANCE TRAINING</span></Link>
+                        <Link to="/service"><span className="sliderText">ADVANCE TRAINING</span></Link>
                    </div>
                </div>
                <div className="cart">
                    <div>
                         <img src={img2} alt=""/>
-                        <Link to="/classes"><span className="sliderText">CARDIO TRAINING</span></Link>
+                        <Link to="/service"><span className="sliderText">CARDIO TRAINING</span></Link>
                    </div>
                </div>
                <div className="cart">
                    <div>
                         <img src={img5} alt=""/>
-                        <Link to="/classes"><span className="sliderText">STRENGTH TRAINING</span></Link>
+                        <Link to="/service"><span className="sliderText">STRENGTH TRAINING</span></Link>
                    </div>
                </div>
                <div className="cart">
                    <div>
                         <img src={img6} alt=""/>
-                        <Link to="/classes"><span className="sliderText">PHYSIO TRAINING</span></Link>
+                        <Link to="/service"><span className="sliderText">PHYSIO TRAINING</span></Link>
                    </div>
                </div>
                

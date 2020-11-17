@@ -75,45 +75,9 @@ h1, h2, h3, h4{
   background: none;
   border: 2px solid $theme-color;
   color: $text-white;
-  color: black;
 }
-// ===== slider 
-.sliderText{
-  background-color: $theme-color;
-  font-family: $header-font;
-  font-weight: $bold-font;
-  position: absolute;
-  color: black;
-  bottom: 30px;
-  left: 0;
-  padding: 8px 40px 8px 5px;
-  cursor: pointer;
-  border-radius: $rounded;
-}
-// ====our classes
-.class-body{
-  margin: $page-margin;
-}
-.class-card-text{
-  background-color: $theme-color;
-  font-family: $header-font;
-  font-weight: $bold-font;
-  position: relative;
-  color: black;
-  padding: 10px 20px 10px 5px;
-  cursor: pointer;
-  border-radius: $rounded;
-  margin-top: -20px;
-}
-.benifit li{
-  margin-bottom: 15px;
-}
-.benifit li:last-child{
-  margin-bottom: 0;
-}
-.service-btn{
-  margin-top: 280px;
-}
+
+
 
 // ========== Styling of Services Area ========== //
 
@@ -161,6 +125,87 @@ h1, h2, h3, h4{
 }
 .small-text{
   line-height: 2;
+}
+// ======== Carousel Section============ // 
+
+.cart{
+  width: 90%;
+  /* height: 300px; */
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  /* margin: 0 5px; */
+  position: relative;
+  box-shadow: 5px 5px 5px gray;
+}
+
+.imageHandle img{
+  height: 300px;
+  width: 100%;
+
+}
+// ===== slider 
+.sliderText{
+  background-color: $theme-color;
+  font-family: $header-font;
+  font-weight: $bold-font;
+  position: absolute;
+  color: black;
+  bottom: 30px;
+  left: 0;
+  padding: 8px 40px 8px 5px;
+  cursor: pointer;
+  border-radius: $rounded;
+}
+// ====our classes
+.class-body{
+  margin: $page-margin;
+}
+.class-card-text{
+  background-color: $theme-color;
+  font-family: $header-font;
+  font-weight: $bold-font;
+  position: relative;
+  color: black;
+  padding: 10px 20px 10px 5px;
+  cursor: pointer;
+  border-radius: $rounded;
+  margin-top: -40px;
+}
+.benifit li{
+  margin-bottom: 15px;
+}
+.benifit li:last-child{
+  margin-bottom: 0;
+}
+.schedule-page-btn{
+  margin-top: 280px;
+}
+.schedule-page-btn:hover{
+  color: black;
+}
+
+.textColor{
+  color: orange;
+}
+
+.boxStyle{
+  height: 100px;
+  background-color: white;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  margin-bottom: 20px;
+  padding: 10px 0px 0px 15px;
+}
+
+.icons{
+  height: 20px;
+}
+.benifit li{
+  list-style: none;
+}
+
+.joinButton{
+  margin-top: 160px;
 }
 
 // ========= Style of choose us section ========== // 

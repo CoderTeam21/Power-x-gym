@@ -29,7 +29,7 @@ const Pricing = () => {
                                     </ul>
                                    </div>
                                    <div className="purchase-btn text-center">
-                                   <Link to="/service"><button className="btn-brand my-3">PURCHASE</button></Link>
+                                   <Link to="/form"><button className="btn-brand my-3">PURCHASE</button></Link>
                                    </div>
                                 </div>
                             </div>
@@ -48,7 +48,7 @@ const Pricing = () => {
                                     </ul>
                                    </div>
                                    <div className="purchase-btn text-center">
-                                   <Link to="/service"><button className="btn-brand my-3">PURCHASE</button></Link>
+                                   <Link to="/form"><button className="btn-brand my-3">PURCHASE</button></Link>
                                    </div>
                                 </div>
                             </div>
@@ -67,7 +67,7 @@ const Pricing = () => {
                                     </ul>
                                    </div>
                                    <div className="purchase-btn text-center">
-                                   <Link to="/service"><button className="btn-brand my-3">PURCHASE</button></Link>
+                                   <Link to="/form"><button className="btn-brand my-3">PURCHASE</button></Link>
                                    </div>
                                 </div>
                             </div>

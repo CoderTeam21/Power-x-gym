@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../App.css';
 import OurServices from '../OurServices/OurServices';
 
 const OurClasses = () => {

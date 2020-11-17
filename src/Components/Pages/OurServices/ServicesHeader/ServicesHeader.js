@@ -1,5 +1,4 @@
 import React from 'react';
-import '../../../../App.css';
 import Menubar from '../../../Home/Menubar/Menubar';
 
 const ServicesHeader = () => {

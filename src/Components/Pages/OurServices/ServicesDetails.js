@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import '../../../App.css';
 import { Link, useParams } from 'react-router-dom';
 import icon from '../../../images/checkmark-square-2.png';
-import OurServices from './OurServices';
 import ServicesHeader from './ServicesHeader/ServicesHeader';
 import Footer from '../../Home/Footer/Footer';
+import instruments from '../../../images/instument.jpg';
 
 const ServicesDetails = () => {
     const { service_id } = useParams();
@@ -51,9 +50,9 @@ console.log(matchIteam);
             <div style={{margin:'100px 0 50px 0'}} className="row">
                 <div className="col-md-6">
                     <figure>
-                        {/* <img style={{ "height": "300px", "width": "500px" }} src={matchIteam.image} alt="img" /> */}
+                        <img style={{ "height": "300px", "width": "500px" }} src={instruments} alt="img" />
                     </figure>
-                    {/* <p className="my-5"> {matchIteam.descreption}</p> */}
+                    <p className="my-5">Due to the ongoing global constraints related to COVID-19, the online Advance plan Course has been made temporarily available to individuals with permanent residence in locations where new in-person Advance plan Certificate Course offerings have temporarily ceased due to COVID restrictions. This course provides such individuals a path to earning the CrossFit Level 1 Trainer Online (CF-OL1) credential.</p>
 
                     <div className="benifit pb-5">
                         <li><img className="icons" src={icon} alt="" /> Having slimmer shaplely thinghs</li>
@@ -81,8 +80,8 @@ console.log(matchIteam);
                         }
 
                     </div>
-                    <Link to="/form">
-                        <button className="btn-brand float-right px-4 service-btn">JOIN US</button>
+                    <Link to="/pricing">
+                        <button className="btn-brand float-right px-4 schedule-page-btn">JOIN US</button>
                     </Link>
                 </div>
 

@@ -24,23 +24,6 @@ const Payment = () => {
 
 
 
-
-    // const handelRegister = () => {
-    //     const newRegister = {...registerData};
-    //     fetch('url', {
-    //         method: 'POST',
-    //         headers: {'content-Type': 'application/json'},
-    //         body: JSON.stringify(newRegister)
-    //     })
-    //     .then(res => res.json())
-    //     .then(data => {
-    //         console.log(data);
-    //     })
-    // }
-
-
-
-
     return (
         <div>
             <MemberHeader></MemberHeader>
