@@ -58,7 +58,7 @@ h1, h2, h3, h4{
 }
 .video{
   border: 10px solid rgb(5, 6, 19);
-  border-radius: 2px;
+  border-radius: $rounded;
   width: 100%;
 }
 .btn-brand{
@@ -75,6 +75,44 @@ h1, h2, h3, h4{
   background: none;
   border: 2px solid $theme-color;
   color: $text-white;
+  color: black;
+}
+// ===== slider 
+.sliderText{
+  background-color: $theme-color;
+  font-family: $header-font;
+  font-weight: $bold-font;
+  position: absolute;
+  color: black;
+  bottom: 30px;
+  left: 0;
+  padding: 8px 40px 8px 5px;
+  cursor: pointer;
+  border-radius: $rounded;
+}
+// ====our classes
+.class-body{
+  margin: $page-margin;
+}
+.class-card-text{
+  background-color: $theme-color;
+  font-family: $header-font;
+  font-weight: $bold-font;
+  position: relative;
+  color: black;
+  padding: 10px 20px 10px 5px;
+  cursor: pointer;
+  border-radius: $rounded;
+  margin-top: -20px;
+}
+.benifit li{
+  margin-bottom: 15px;
+}
+.benifit li:last-child{
+  margin-bottom: 0;
+}
+.service-btn{
+  margin-top: 280px;
 }
 
 // ========== Styling of Services Area ========== //
@@ -239,7 +277,7 @@ footer{
   margin: $page-margin;
   background-color: rgba(23, 20, 38, 0.8);
   padding: 40px 0 30px 0;
-  border-radius: 2px;
+  border-radius: $rounded;
 }
 .contact-form{
   padding: 0 30px;

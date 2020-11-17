@@ -1,38 +1,67 @@
-.App {
-  text-align: center;
+
+/* carasole cart design  */
+
+.cart{
+  width: 90%;
+  /* height: 300px; */
+  background-color: #333;
+  color: #fff;
+  font-size: 20px;
+  /* margin: 0 5px; */
+  position: relative;
+  box-shadow: 5px 5px 5px gray;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.imageHandle img{
+  height: 300px;
+  width: 100%;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+
+/* our servises section style  */
+
+.card-img{
+  height: 200px;
+  width: 100%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+/* services details  */
+
+.textColor{
+  color: orange;
 }
 
-.App-link {
-  color: #61dafb;
+.boxStyle{
+  height: 100px;
+  background-color: white;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  margin-bottom: 20px;
+  padding: 10px 0px 0px 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icons{
+  height: 20px;
+}
+.benifit li{
+  list-style: none;
+}
+
+.joinButton{
+  margin-top: 160px;
+}
+
+/* header  */
+.backgrounAttach{
+  background-image: url('./images/header-bg.jpg');
+  height: 400px;
+  background-size: cover;
+  background-position: 0% 40%;
+}
+
+.headerText{
+  margin-top: 120px !important;
 }

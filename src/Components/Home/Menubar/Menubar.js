@@ -12,7 +12,7 @@ const Menubar = () => {
                     <Nav className="ml-auto">
                         <Link className="menu-link" to="/home">Home</Link>
                         <Link className="menu-link" to="/services">Services</Link>
-                        <Link className="menu-link" to="/ourClassed">Our Classes</Link>
+                        <Link className="menu-link" to="/classes">Our Classes</Link>
                         <Link className="menu-link" to="/aboutUs">About Us</Link>
                         <Link className="menu-link" to="/blog">Blog</Link>
                         <Link className="menu-link" to="/pricing">Pricing</Link>

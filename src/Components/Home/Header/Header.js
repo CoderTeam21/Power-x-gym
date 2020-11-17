@@ -1,6 +1,7 @@
 import React from 'react';
 import Menubar from '../Menubar/Menubar';
 import workOut from '../../../video/workout.mp4';
+import '../../../App.css';
 
 const Header = () => {
     return (

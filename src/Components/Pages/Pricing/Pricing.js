@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import Footer from '../../Home/Footer/Footer';
 import PricingHeader from '../PricingHeader/PricingHeader';
 
@@ -28,7 +29,7 @@ const Pricing = () => {
                                     </ul>
                                    </div>
                                    <div className="purchase-btn text-center">
-                                   <button className="btn-brand my-3">PURCHASE</button>
+                                   <Link to="/service"><button className="btn-brand my-3">PURCHASE</button></Link>
                                    </div>
                                 </div>
                             </div>
@@ -47,7 +48,7 @@ const Pricing = () => {
                                     </ul>
                                    </div>
                                    <div className="purchase-btn text-center">
-                                   <button className="btn-brand my-3">PURCHASE</button>
+                                   <Link to="/service"><button className="btn-brand my-3">PURCHASE</button></Link>
                                    </div>
                                 </div>
                             </div>
@@ -66,7 +67,7 @@ const Pricing = () => {
                                     </ul>
                                    </div>
                                    <div className="purchase-btn text-center">
-                                   <button className="btn-brand my-3">PURCHASE</button>
+                                   <Link to="/service"><button className="btn-brand my-3">PURCHASE</button></Link>
                                    </div>
                                 </div>
                             </div>

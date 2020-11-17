@@ -9,6 +9,12 @@ import Home from './Components/Home/Home/Home';
 import Pricing from './Components/Pages/Pricing/Pricing';
 import AboutUsPage from './Components/Pages/AboutUsPage/AboutUsPage';
 import ContactUs from './Components/Pages/ContactUs/ContactUs';
+import NoMatch from './Components/NoMatch/NoMatch';
+import MemberShifFrom from './Components/Pages/MemberShifFrom/MemberShifFrom';
+import OurClasses from './Components/Pages/OurClasses/OurClasses';
+import Payment from './Components/Pages/Payment/Payment';
+import ServicesDetails from './Components/Pages/OurServices/ServicesDetails';
+
 
 
 function App() {
@@ -21,7 +27,7 @@ function App() {
         <Route path="/home">
           <Home />
         </Route>
-        <Route path="/pricing">
+        <Route path="/pricing/">
           <Pricing />
         </Route>
         <Route path="/aboutUs">
@@ -29,6 +35,21 @@ function App() {
         </Route>
         <Route path="/contact">
           <ContactUs />
+        </Route>
+        <Route path="/classes">
+        <OurClasses />
+        </Route>
+        <Route path="/service">
+          <ServicesDetails />
+        </Route>
+        <Route path="/form">
+          <MemberShifFrom />
+        </Route>
+        <Route path="/payment">
+          <Payment />
+        </Route>
+        <Route path="*">
+          <NoMatch />
         </Route>
       </Switch>
     </Router>
