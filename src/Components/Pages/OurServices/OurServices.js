@@ -18,8 +18,8 @@ const OurServices = () => {
     return (
         <div>
             <ClassesHeader />
-            <div className="container class-body">
-                <div className="row" >
+            <div className="container">
+                <div className="row class-body" >
                     {
                         classesData.map(servic => (
                             <div className="col-md-4 col-sm-6">
